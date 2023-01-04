@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPoo } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -8,7 +9,7 @@ function Navbar() {
        <nav className='navbar'>
             <div className='navbar-container'>
                 <Link to="/" className='navbar-logo'>
-                    HUGH <i className="fab ta-typo3"></i>
+                    HUGH <FontAwesomeIcon icon={faPoo}></FontAwesomeIcon>
                 </Link>
             </div>
        </nav>
