@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 
 
@@ -11,6 +11,9 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
+        <Routes>
+          <Route path='/' exact />
+        </Routes>
       </Router>
     </div>
   )
