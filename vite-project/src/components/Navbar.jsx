@@ -30,8 +30,6 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <i class='fas fa-poo' />
-            <i class='fas fa-poo' />
-            <i class='fas fa-poo' />
             HUGH
           </Link>
           <div className='menu-icon' onClick={handleClick}>
