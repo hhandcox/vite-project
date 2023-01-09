@@ -10,7 +10,7 @@ import SignUp from './components/pages/SignUp';
 function App() {
 
   return (
-    <>
+    <Router>
         <Navbar />
         <Home />
         <Routes>
@@ -19,7 +19,7 @@ function App() {
             <Route path='/products' component={Products}/>
             <Route path='/sign-up' component={SignUp}/>
         </Routes>
-    </>
+    </Router>
   )
 }
 
