@@ -167,3 +167,20 @@
   
   @media screen and (max-width: 768px) {
   }
+
+  .fa-brands {
+    font-size: x-large;
+    padding-right: 0.25em;
+  }
+
+  .fa-facebook {
+    color: #4267B2;
+  }
+
+  .fa-twitter {
+    color: #1DA1F2;
+  }
+
+  .fa-github {
+    color: #6e5494;
+  }

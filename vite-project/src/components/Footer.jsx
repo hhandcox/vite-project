@@ -27,24 +27,18 @@ function Footer() {
                     <Link to='/sign-up'>How it works</Link>
                     <Link to='/'>Testimonials</Link>
                     <Link to='/'>Careers</Link>
-                    <Link to='/'>Investors</Link>
-                    <Link to='/'>Terms of Service</Link>
+                </div>
+                <div className="footer-link-items social-items">
+                    <h2>Social</h2>
+                    <Link to='/sign-up'><i class="fa-brands fa-facebook"></i> Facebook</Link>
+                    <Link to='/'><i class="fa-brands fa-twitter"></i>Twitter</Link>
+                    <Link to='/'><i class="fa-brands fa-github"></i>Github</Link>
                 </div>
                 <div className="footer-link-items">
-                    <h2>About Us</h2>
-                    <Link to='/sign-up'>How it works</Link>
-                    <Link to='/'>Testimonials</Link>
-                    <Link to='/'>Careers</Link>
+                    <h2>Customer Care</h2>
                     <Link to='/'>Investors</Link>
                     <Link to='/'>Terms of Service</Link>
-                </div>
-                <div className="footer-link-items">
-                    <h2>About Us</h2>
-                    <Link to='/sign-up'>How it works</Link>
-                    <Link to='/'>Testimonials</Link>
-                    <Link to='/'>Careers</Link>
-                    <Link to='/'>Investors</Link>
-                    <Link to='/'>Terms of Service</Link>
+                    <Link to='/'>Contact Us Anytime!</Link>
                 </div>
             </div>
         </div>
