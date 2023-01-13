@@ -24,12 +24,12 @@ function Footer() {
             <div className="footer-link-wrapper">
                 <div className="footer-link-items">
                     <h2>About Us</h2>
-                    <Link to='/sign-up'>How it works</Link>
+                    <Link to='/sign-up'>How We Work</Link>
                     <Link to='/'>Testimonials</Link>
                     <Link to='/'>Careers</Link>
                 </div>
                 <div className="footer-link-items social-items">
-                    <h2>Social</h2>
+                    <h2>Connect</h2>
                     <Link to='/sign-up'><i class="fa-brands fa-facebook"></i> Facebook</Link>
                     <Link to='/'><i class="fa-brands fa-twitter"></i>Twitter</Link>
                     <Link to='/'><i class="fa-brands fa-github"></i>Github</Link>
